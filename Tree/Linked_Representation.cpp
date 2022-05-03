@@ -87,7 +87,9 @@ signed main()
     cout << "Succesfully created Tree" << endl;
     cout << "Height of the tree is:" << height(root) << endl;
     cout << "level of the tree is:" << level(root) << endl;
+    cout<<"This LEvel Order has the complexity of O(n^2)"<<endl;
     printLevelOrder(root, height(root));
+    
     print_preorder(root);
     return 0;
 }
