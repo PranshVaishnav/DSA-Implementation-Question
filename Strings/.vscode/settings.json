@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "cctype": "cpp",
+        "cassert": "cpp"
+    },
+    "C_Cpp.dimInactiveRegions": false
+}
