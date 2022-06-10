@@ -23,7 +23,7 @@ void inorder(struct node* root)
 {
 	if (root != NULL) {
 		inorder(root->left);
-		cout << root->key;
+		cout << root->key<<" ";
 		inorder(root->right);
 	}
 }
