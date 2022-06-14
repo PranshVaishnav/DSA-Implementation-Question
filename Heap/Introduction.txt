@@ -1,0 +1,9 @@
+* Heap is a Complete Binary Tree
+* Heap can contain Duplicates.
+* Every Node should have an element greater than or equal to its descendent--> MAX HEAP
+* Every Node should have an element smaller than or equal to its descendent--> MIN HEAP
+* Heap is normally stored in array for faster operation.
+
+*  Arr[(i-1)/2]	Returns the parent node
+   Arr[(2*i)+1]	Returns the left child node
+   Arr[(2*i)+2]	Returns the right child node
